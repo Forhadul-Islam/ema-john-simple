@@ -48,9 +48,9 @@
 }
 @media all and (max-width:668px){
     .cart{
-        position: relative;
+       
         text-align: center;
-        width: 100%;
+        
         
     }
 }
