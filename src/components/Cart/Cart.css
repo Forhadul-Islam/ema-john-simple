@@ -1,0 +1,56 @@
+.cart h2{
+    color: rgb(43, 23, 23);
+}
+.cart{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: 2px solid rgb(108, 147, 190);
+    padding: 10px;
+
+}
+.cart span {
+    color: rgb(194, 50, 50);
+}
+.review-order-btn{
+    background-color: goldenrod;
+    font-weight: bold;
+    width: 210px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.review-order-btn:active{
+    font-size: 14px;  
+}
+.review-order-btn:focus{
+    outline: none;
+    
+}
+
+@media all and (max-width:1160px){
+    .cart{
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        
+       
+    }
+    .review-order-btn{
+        width: auto;
+        height: auto;
+    }
+
+}
+@media all and (max-width:668px){
+    .cart{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        
+    }
+}

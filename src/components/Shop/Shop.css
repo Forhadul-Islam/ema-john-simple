@@ -1,0 +1,30 @@
+.shop-container{
+    display: flex;
+    
+}
+.product-container{
+    margin-left: 100px;
+    padding-right: 5px;
+    margin-top: 10px;
+    width: 75%;
+    border-right: 1px solid lightgray;
+    overflow: hidden;
+    
+}
+.cart-container{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+
+@media all and (max-width:1160px){
+    
+    .product-container{
+        margin-left: 0px;
+        
+    }
+
+}
+
