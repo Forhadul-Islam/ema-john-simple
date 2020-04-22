@@ -1,0 +1,40 @@
+.ship-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7f1f4;
+    padding-bottom: 70px;
+}
+
+.ship-form input {
+    display: block;
+    width: 300px;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+.form-submit-button {
+    width: 200px;
+    background-color: #4190c7;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #4f5154;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.form-submit-button:hover {
+    background-color: #2b4e9b;
+    color: white;
+}
+.ship-form input:focus {
+    outline: none;
+}

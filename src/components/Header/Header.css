@@ -1,24 +1,110 @@
-.header img{
-    height: 80px;
+.header img {
+  height: 80px;
+  padding: 15px 0;
+}
+.header {
+  text-align: center;
+}
+.header nav {
+  background-color: black;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+}
+.header nav a {
+  color: white;
+  padding: 3px 20px;
+
+  text-decoration: none;
+  font-size: 20px;
+  transition: 1.2s;
+}
+.header nav a:hover {
+  background-color: rgb(117, 114, 114);
+}
+.userInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userInfo img {
+    height: 32px;
+    width: 32px;
+    border: 1.2px solid rgb(130, 181, 181);
+    margin-right: 3px;
+    padding: 2px;
+    border-radius: 50%;
+}
+.userInfo small {
+  color: #d18b37;
+}
+.navLink {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+
+}
+
+.activeUser {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
   
+}
+
+@media all and (max-width: 668px) {
+  .header nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .header nav .navLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+  }
+  .header nav .navLink{
+    width: 100%;
+    display: flex;
     
-}
-.header{
-    text-align: center;
-}
-.header nav{
-    background-color: black;
-    line-height: 40px;
-    text-align: left;
-}
-.header nav a{
-    color: white;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 20px;
-}
-.header nav a:hover{
-    background-color: gray;
+  }
+
+  .activeUser {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+  }
+  .userInfo small {
+    display: none;
+    color: rgb(130, 181, 181);
+  }
+ 
+  .userInfo img {
+    display: none;
+  }
+  .header nav a {
+    border: 1px solid rgb(128, 80, 10);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    border-radius: 35px;
+    background-color: #0e0c07;
+    transition: 0.5s;
+  }
+  .header nav a:hover {
+    background-color: rgba(206, 118, 17, 0.294);
+  }
+  .header img {
+    height: 70px;
+    padding: 10px 0;
+  }
 }
